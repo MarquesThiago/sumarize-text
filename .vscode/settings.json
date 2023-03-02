@@ -1,0 +1,23 @@
+{
+    "cSpell.words": [
+        "stopwords"
+    ],
+
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.ignorePatterns": [
+        "**/site-packages/**/*.py",
+        ".vscode/*.py",
+        "**/*.ipynb",
+        "*,ipynb"
+    ],
+    "cSpell.ignorePaths": [
+        "package-lock.json",
+        "node_modules",
+        "vscode-extension",
+        ".git/objects",
+        ".vscode",
+        ".vscode-insiders",
+        "*.ipynb"
+    ]
+}
